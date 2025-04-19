@@ -5,7 +5,7 @@
 ****
 **Скачать проект**:
 
-Клонируйте репозиторий:`git clone <repository-url>`
+Клонируйте репозиторий:`git clone https://github.com/loisakilla/Ranepa_coursework.git`
 
 Установите зависимости:`npm install`
 
