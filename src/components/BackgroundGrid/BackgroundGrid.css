@@ -1,0 +1,28 @@
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    height: 100%;
+    width: 100%;
+}
+
+.gridCell {
+    border: 1px solid rgba(145, 71, 255, 0.35);
+    position: relative;
+}
+
+.flash {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(145, 71, 255, 0.67);
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.1;
+    }
+    100% {
+        opacity: 0.4;
+    }
+}

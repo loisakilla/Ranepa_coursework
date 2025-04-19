@@ -1,0 +1,48 @@
+.header {
+    background: #1a1a1a;
+    padding: 0 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.text-purple {
+    color: #9147ff;
+    font-size: 20px;
+}
+
+.text-green {
+    color: #50fa7b;
+    font-size: 20px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-item {
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav-item.active {
+    color: #50fa7b;
+}
+
+.theme-switch {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.sun-icon, .moon-icon {
+    font-size: 20px;
+}
