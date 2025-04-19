@@ -28,6 +28,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, setCurrentPage, darkMode, 
                         <HomeOutlined />
                         <span style={{marginLeft: 10}}>Главная</span>
                     </div>
+
                     <div
                         className={`nav-item ${currentPage === 'team' ? 'active' : ''}`}
                         onClick={() => setCurrentPage('team')}
